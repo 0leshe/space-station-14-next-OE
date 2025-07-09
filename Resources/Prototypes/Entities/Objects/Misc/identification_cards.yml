@@ -26,6 +26,7 @@
   - type: StealTarget
     stealGroup: IDCard
   - type: NanoChatCard # Corvax-Next-PDAChat
+  - type: JaniGameCard # Corvax-Next-JaniGame
   - type: MiningPoints # DeltaV
 
 #IDs with layers
@@ -890,6 +891,7 @@
     - Xenoborg
   - type: NanoChatCard # Corvax-Next-PDAChat
     notificationsMuted: true
+  - type: JaniGameCard # Corvax-Next-JaniGame
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener

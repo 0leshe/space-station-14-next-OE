@@ -7,7 +7,7 @@ namespace Content.Shared._CorvaxNext.CartridgeLoader.Cartridges;
 [Serializable, NetSerializable]
 public sealed class JaniGameUiMessageEvent(
     JaniGameUiMessageType type,
-    uint ncNumber,
+    uint id,
     uint amount
     ) : CartridgeMessageEvent
 {
@@ -16,11 +16,10 @@ public sealed class JaniGameUiMessageEvent(
     /// </summary>
     public readonly JaniGameUiMessageType Type = type;
 
-    public readonly uint NCNumber = ncNumber;
+    public readonly uint ID = id;
 
     public readonly uint Amount = amount;
 }
-
 public enum JaniGameUiMessageType : byte
 {
     Click,

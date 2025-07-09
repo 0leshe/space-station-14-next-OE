@@ -43,7 +43,7 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
     private void UpdateClosed(Entity<NanoChatCartridgeComponent> ent)
     {
         if (!TryComp<CartridgeComponent>(ent, out var cartridge) ||
-            cartridge.LoaderUid is not {} pda ||
+            cartridge.LoaderUid is not { } pda ||
             !TryComp<CartridgeLoaderComponent>(pda, out var loader) ||
             !GetCardEntity(pda, out var card))
         {
@@ -334,7 +334,7 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
                 // Check if devices are on same map
                 var recipientMap = Transform(receiverUid).MapID;
                 var senderMap = Transform(sender).MapID;
-                
+
                 // Must be on the same map/station unless long-range is allowed
                 if (!channel.LongRange && recipientMap != senderMap)
                 {

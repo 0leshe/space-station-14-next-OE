@@ -12,4 +12,7 @@ public sealed partial class JaniGameCartridgeComponent : Component
     /// </summary>
     [DataField]
     public EntityUid? Station;
+
+    [DataField]
+    public float Coefficient = 1; // random for everyone in round
 }

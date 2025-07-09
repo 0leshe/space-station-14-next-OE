@@ -85,6 +85,7 @@
       - NewsReaderCartridge
       - SecWatchCartridge # Corvax-Next-SecWatch
       - NanoChatCartridge # Corvax-Next-PDAChat
+      - JaniratorGameCartridge # Corvax-Next-JaniGame
     cartridgeSlot:
       priority: -1
       name: device-pda-slot-component-slot-name-cartridge
@@ -158,6 +159,7 @@
     - WantedListCartridge
     - CrimeAssistCartridge # Corvax-Next-CrimeAssist
     - NanoChatCartridge # Corvax-Next-PDAChat
+    - JaniratorGameCartridge # Corvax-Next-JaniGame
 
 - type: entity
   parent: BasePDA
@@ -174,6 +176,7 @@
       - MedTekCartridge
       - SecWatchCartridge # Corvax-Next-SecWatch
       - NanoChatCartridge # Corvax-Next-PDAChat
+      - JaniratorGameCartridge # Corvax-Next-JaniGame
 
 - type: entity
   parent: BasePDA
@@ -486,6 +489,7 @@
       - NanoTaskCartridge
       - NewsReaderCartridge
       - NanoChatCartridge # Corvax-Next-PDAChat
+      - JaniratorGameCartridge # Corvax-Next-JaniGame
       - StockTradingCartridge # Corvax-Next-StockTrading
 
 - type: entity
@@ -534,6 +538,7 @@
       - AstroNavCartridge
       - SecWatchCartridge # Corvax-Next-SecWatch
       - NanoChatCartridge # Corvax-Next-PDAChat
+      - JaniratorGameCartridge # Corvax-Next-JaniGame
 
 - type: entity
   parent: BasePDA
@@ -672,6 +677,7 @@
     - NewsReaderCartridge
     - WantedListCartridge
     - NanoChatCartridge # Corvax-Next-PDAChat
+    - JaniratorGameCartridge # Corvax-Next-JaniGame
     - StockTradingCartridge # Corvax-Next-StockTrading
 
 - type: entity
@@ -895,6 +901,7 @@
     - CrimeAssistCartridge # Corvax-Next-CrimeAssist
     - LogProbeCartridge
     - NanoChatCartridge # Corvax-Next-PDAChat
+    - JaniratorGameCartridge # Corvax-Next-JaniGame
 
 - type: entity
   parent: BaseSecurityPDA
@@ -967,6 +974,7 @@
       - LogProbeCartridge
       - AstroNavCartridge
       - NanoChatCartridge # Corvax-Next-PDAChat
+      - JaniratorGameCartridge # Corvax-Next-JaniGame
 
 - type: entity
   parent: CentcomPDA
@@ -994,6 +1002,7 @@
       - MedTekCartridge
       - StockTradingCartridge # Corvax-Next-StockTrading
       - NanoChatCartridge # Corvax-Next-PDAChat
+      - JaniratorGameCartridge # Corvax-Next-JaniGame
       - AstroNavCartridge
   - type: Tag #  Ignore Chameleon tags
     tags:
@@ -1146,6 +1155,7 @@
       - LogProbeCartridge
       - AstroNavCartridge
       - NanoChatCartridge # Corvax-Next-PDAChat
+      - JaniratorGameCartridge # Corvax-Next-JaniGame
 
 - type: entity
   parent: ERTLeaderPDA
@@ -1259,6 +1269,7 @@
     - NanoTaskCartridge
     - NewsReaderCartridge
     - NanoChatCartridge # Corvax-Next-PDAChat
+    - JaniratorGameCartridge # Corvax-Next-JaniGame
     - StockTradingCartridge # Corvax-Next-StockTrading
 
 - type: entity
@@ -1325,6 +1336,7 @@
     - CrimeAssistCartridge # Corvax-Next-CrimeAssist
     - LogProbeCartridge
     - NanoChatCartridge # Corvax-Next-PDAChat
+    - JaniratorGameCartridge # Corvax-Next-JaniGame
 
 - type: entity
   parent: BaseMedicalPDA
@@ -1354,6 +1366,7 @@
     - WantedListCartridge
     - MedTekCartridge
     - NanoChatCartridge # Corvax-Next-PDAChat
+    - JaniratorGameCartridge # Corvax-Next-JaniGame
 
 - type: entity
   parent: ClownPDA
@@ -1500,6 +1513,7 @@
       - NanoTaskCartridge
       - MedTekCartridge
       - NanoChatCartridge # Corvax-Next-PDAChat
+      - JaniratorGameCartridge # Corvax-Next-JaniGame
 
 - type: entity
   parent: BasePDA
