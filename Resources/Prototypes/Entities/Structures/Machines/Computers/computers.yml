@@ -665,6 +665,7 @@
   - type: CommunicationsConsole
     title: comms-console-announcement-title-station
   - type: DeviceNetwork
+    deviceNetId: Wireless    
     transmitFrequencyId: ShuttleTimer
   - type: ActivatableUI
     key: enum.CommunicationsConsoleUiKey.Key
@@ -1290,8 +1291,10 @@
       color: "#b89f25"
     - type: AccessReader
       access: [["Salvage"]]
-    - type: StealTarget
-      stealGroup: SalvageExpeditionsComputerCircuitboard
+# Corvax-StealTarget-start
+#    - type: StealTarget
+#      stealGroup: SalvageExpeditionsComputerCircuitboard
+# Corvax-StealTarget-end
 
 - type: entity
   parent: BaseComputer
